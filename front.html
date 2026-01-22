@@ -1,0 +1,23 @@
+<div class="container">
+    <h1>🔐 Gerador de Senhas</h1>
+
+    <label>Tamanho:</label>
+    <input type="number" id="tamanho" value="8" min="4" max="32">
+
+    <div class="opcoes">
+      <label><input type="checkbox" id="maiusculas"> Letras maiúsculas</label>
+      <label><input type="checkbox" id="numeros"> Números</label>
+      <label><input type="checkbox" id="simbolos"> Símbolos</label>
+    </div>
+
+    <button id="gerar">Gerar senha</button>
+
+    <h3>Senha gerada (clique para copiar):</h3>
+    <p id="resultado"></p>
+    <p id="forca"></p>
+
+    <h3>Histórico:</h3>
+    <ul id="historico"></ul>
+  </div>
+
+  <script src="script.js"></script>
